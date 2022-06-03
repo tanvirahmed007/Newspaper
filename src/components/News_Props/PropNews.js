@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const PropNews = (props) => {
     const { title, description, urlToImage } = props.news;
   return (
-    <Card className='my-5' sx={{ maxWidth: 345 }}>
+    <Card className='my-5 mx-2' sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
